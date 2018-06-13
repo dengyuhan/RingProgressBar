@@ -277,6 +277,9 @@ public class RingProgressBar extends View {
         this.max = max;
     }
 
+    public void setMin(int min) {
+        this.min = min;
+    }
 
     /**
      * 获取进度值
