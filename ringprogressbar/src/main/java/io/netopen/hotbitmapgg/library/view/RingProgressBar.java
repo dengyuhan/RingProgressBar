@@ -13,10 +13,10 @@ import android.view.View;
 
 import io.netopen.hotbitmapgg.library.R;
 
+
 /**
  * Created by hcc on 16/7/13 19:54
  * 100332338@qq.com
- * <p/>
  * 一个自定义的圆环进度条
  * 可适用于上传下载
  */
