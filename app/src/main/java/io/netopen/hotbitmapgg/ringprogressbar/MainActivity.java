@@ -1,11 +1,11 @@
 package io.netopen.hotbitmapgg.ringprogressbar;
 
-import io.netopen.hotbitmapgg.library.view.RingProgressBar;
-
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
+
+import io.netopen.hotbitmapgg.library.view.RingProgressBar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
       if (msg.what == 0) {
         if (progress < 100) {
-          progress++;
+          progress--;
           mRingProgressBar1.setProgress(progress);
           mRingProgressBar2.setProgress(progress);
           mRingProgressBar1.setOnProgressListener(new RingProgressBar.OnProgressListener() {
